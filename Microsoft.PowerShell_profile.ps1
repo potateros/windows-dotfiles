@@ -11,6 +11,10 @@ Function gig {
   Invoke-WebRequest -Uri "https://www.gitignore.io/api/$params"  -UseBasicParsing | select -ExpandProperty content | Out-File -FilePath $(Join-Path -path $pwd -ChildPath ".gitignore") -Encoding ascii
 }
 
+Function touch {
+  set-content -Path ($args[0]) -Value ($null)
+}
+
 Import-Module 'C:\tools\poshgit\dahlbyk-posh-git-9bda399\src\posh-git.psd1'
 
 Import-Module posh-git
