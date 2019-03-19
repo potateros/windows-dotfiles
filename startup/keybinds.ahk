@@ -1,22 +1,20 @@
 ;For Thinkpad T480
+
 Capslock::#Tab
 #Tab::Capslock
 
-RAlt::PgUp
-RControl::PgDn
+RAlt::Home
+RControl::End
 
 Home::#^Left
 End::#^Right
 
-PgUp::Home
-PgDn::End
-
 Insert::PrintScreen
 PrintScreen::AppsKey
 
-+!0::Media_Prev
-+!-::Media_Play_Pause
-+!=::Media_Next
++!z::Media_Prev
++!x::Media_Play_Pause
++!c::Media_Next
 
 ;Mech
 ;^F9::Media_Prev
