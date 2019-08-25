@@ -3,7 +3,6 @@
 new-alias -name l -value dir
 new-alias -name vim -value 'C:\Program Files (x86)\vim\vim81\vim.exe'
 
-
 Set-PSReadlineOption -EditMode vi -BellStyle None
 
 Function gig {
@@ -15,9 +14,12 @@ Function gig {
   Invoke-WebRequest -Uri "https://www.gitignore.io/api/$params"  -UseBasicParsing | select -ExpandProperty content | Out-File -FilePath $(Join-Path -path $pwd -ChildPath ".gitignore") -Encoding ascii
 }
 
-
 Function touch {
   set-content -Path ($args[0]) -Value ($null)
+}
+
+Function rmd {
+	Remove-Item -Recurse -Force -Path $args
 }
 
 Import-Module 'C:\tools\poshgit\dahlbyk-posh-git-9bda399\src\posh-git.psd1'
