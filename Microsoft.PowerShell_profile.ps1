@@ -2,6 +2,7 @@
 
 new-alias -name l -value dir
 new-alias -name vim -value 'C:\Program Files (x86)\vim\vim81\vim.exe'
+new-alias -name trash -value Remove-ItemSafely
 
 Set-PSReadlineOption -EditMode vi -BellStyle None
 
