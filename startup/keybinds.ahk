@@ -6,8 +6,10 @@ Capslock::#Tab
 RAlt::Home
 RControl::End
 
-Home::#^Left
-End::#^Right
+#Home::#^Left
+#End::#^Right
+Home::Up
+End::Down
 
 Insert::PrintScreen
 PrintScreen::AppsKey
