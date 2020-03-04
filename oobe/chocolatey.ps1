@@ -2,22 +2,34 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.We
 
 choco install -y
 
-git
-github-desktop
-googlechrome
-firefox
 7zip
-sumatrapdf
-vlc
 autohotkey
-jdk8
-paint.net
-vscode
-poshgit
 google-backup-and-sync
+handbrake
+imagemagick
+irfanview
+k-litecodecpackmega
+paint.net
+sumatrapdf
+steam
+firefox
+googlechrome
+evernote
+franz
+teamspeak
+telegram
 conemu
-androidstudio
 postman
-firacode
+vscode
+jre8
+opensans
 ubuntu.font
+firacode
 robotofonts
+github-desktop
+golang
+nodejs-lts
+vim --params '"/RestartExplorer /NoContextmenu /NoDesktopShortcuts"'
+git --params '"/WindowsTerminal /NoShellIntegration /NoCredentialManager /NoGitLfs"'
+anaconda --params '"/JustMe /AddToPath /D:c:\src\anaconda"'
+jdk8 -params 'installdir=c:\\src\\java8'
