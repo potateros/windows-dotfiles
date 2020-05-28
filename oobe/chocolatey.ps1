@@ -16,9 +16,6 @@ firefox
 googlechrome
 evernote
 franz
-teamspeak
-telegram
-conemu
 postman
 vscode
 jre8
@@ -27,9 +24,6 @@ ubuntu.font
 firacode
 robotofonts
 github-desktop
-golang
-nodejs-lts
 vim --params '"/RestartExplorer /NoContextmenu /NoDesktopShortcuts"'
-git --params '"/WindowsTerminal /NoShellIntegration /NoCredentialManager /NoGitLfs"'
-anaconda --params '"/JustMe /AddToPath /D:c:\src\anaconda"'
-jdk8 -params 'installdir=c:\\src\\java8'
+git --params '"/WindowsTerminal /NoShellIntegration /NoGitLfs /NoAutoCrlf"'
+jdk8
