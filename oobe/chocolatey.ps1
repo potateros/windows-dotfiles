@@ -24,6 +24,8 @@ ubuntu.font
 firacode
 robotofonts
 github-desktop
+jdk8
+powertoys
+openvpn
 vim --params '"/RestartExplorer /NoContextmenu /NoDesktopShortcuts"'
 git --params '"/WindowsTerminal /NoShellIntegration /NoGitLfs /NoAutoCrlf"'
-jdk8
